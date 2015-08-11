@@ -1,0 +1,198 @@
+@import url("//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css");
+
+body#index {
+        background-image: url(../images/kusanya-home.jpg)
+        background-attachment: fixed;
+}
+
+body#about {
+        background-image: url(../images/kusanya-bricks.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+body#menu {
+        background-image: url(../images/kusanya-wood.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Oswald', sans-serif;
+}
+
+body#events {
+        background-image: url(../images/kusanya-tile.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+body#donate {
+        background-image: url(../images/kusanya-bricks.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-size:30px;
+        color:white;
+        text-align:center;
+        padding-left:100px;
+        padding-right:100px;
+}
+
+body#contact {
+        background-image: url(../images/kusanya-coffeebeans.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Oswald', sans-serif;
+}
+
+nav {
+        width: 150px;
+        float: left;
+        display: inline;
+        margin: 0;
+        padding:300;
+        margin-right: 10px;
+        opacity:0.9;
+        margin-top: 100px;
+        margin-left: 50px;
+}
+
+ul.nav > li > a, ul.nav > li > a:hover {
+        color: White;
+        font-size: x-large;
+        font-family: Oswald ;
+        font-style: Bold;
+        background-color: transparent;
+}
+
+footer {
+        font-family: Oswald;
+        font-style: Bold;
+        display: block;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 95px;
+        background-color: Black;
+        opacity:0.9;
+        padding-top: 4px;
+        margin-top: 100px;
+        z-index:10;
+}
+
+footer > p, footer > a {
+        color: White;
+        font-size: 30px;
+        text-align:center;
+}
+
+ .pic{
+     width: 175.5px;
+       height: 132px;
+       opacity: 1;
+ }
+ 
+ #logo {
+         margin-bottom: 100px;
+ }
+ 
+ .payback {
+         width: 312px;
+         height: 332px;
+ }
+ 
+ #button{
+         width: 450px;
+         padding: 20px;
+         background-color: white;
+        opacity: 0.97;
+    filter: Alpha(opacity=50); /* IE8 and earlier */
+     }
+    
+    .ham{
+            color:white;
+            background-color: black;
+            opacity: 0.9;
+ }
+
+label{
+        font-size:20px;
+}
+
+ #buup{
+         color:black;
+ }
+ 
+ well well-lg {
+         height:1045px;
+     }
+ 
+ #wells{
+         background-color: black;
+         color: black;
+         opacity: 0.85;
+         margin-bottom: 100px;
+ }
+ 
+ 
+ .thumbnail {
+          opacity: 0.9;
+          color: white;
+          background-color:black;
+          margin-bottom: 100px;
+          background: rgba(0, 0, 0 ,0.6);
+          
+  }
+ 
+ #events_text{
+         font-size: 30px;
+ }
+ 
+ #menu_text{
+         color: white;
+ }
+ 
+ .box{
+         width: 423px;
+         height: 206;
+ }
+ 
+ input{
+         color:black;
+ }
+ 
+ #catering{
+         background-image: url(images/cater.jpg);
+         background-attachment: fixed;
+         background-size: cover;
+         background-repeat: no-repeat;
+ } 
+ 
+ @media (min-width: 750px)
+         body {
+             background-image: url(images/kusanya-wood.jpg);
+            background-size: cover;
+			background-repeat: no-repeat;
+         }
+
+.panel-title {
+    font-weight:bolder;
+    font-size:32px;;
+}
+
+.panel {
+    margin-bottom:100px;
+    background-color:black;
+    opacity:0.8;
+    
+}
+.alpha60 {
+ background: rgba(255, 255, 255, 255.6);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+}
+
+ #img{
+    opacity: 5;
+}

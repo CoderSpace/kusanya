@@ -1,0 +1,109 @@
+@import url("//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css");
+
+#donate {
+        background-image: url('https://cloud.githubusercontent.com/assets/5033756/3879709/97c3528e-217b-11e4-9916-860b28a1949d.JPG');
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+nav {    
+        width: 150px;
+        float: left;
+        display: inline;
+        margin: 0;
+        padding:300;
+        margin-right: 10px;
+        opacity:0.9;
+        margin-top: 100px;
+        margin-left: 50px;
+}
+
+ul.nav > li > a, ul.nav > li > a:hover {
+        color: White;
+        font-size: x-large;
+        font-family: Oswald ;
+        font-style: Bold;
+        background-color: transparent;
+}
+
+footer {
+        font-family: Oswald ;
+        font-style: Bold;
+        display: block;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 105px;
+        background-color: Black;
+        opacity:0.9;
+        padding-top: 5px;
+}
+
+footer > p, footer > a {
+        color: White;
+        font-size: 30px;
+        text-align:center;
+}
+
+#logo {
+        margin-bottom:100px;
+}
+
+.thumbnail{
+    background-color:black;
+    opacity:0.9;
+    margin-bottom:50px;
+    box-sizing:border-box;
+    display:block;
+    padding:4px;
+    border-radius:4px;
+    width:800px;
+    height:600px;
+} 
+ 
+ .thumbnail p {
+         font-size:23px;
+         color:white;
+         padding-left:100px;
+         padding-right:100px;
+         font-family: 'Oswald', sans-serif;
+ }
+ 
+ .p2 {
+         font-size:23px;
+         color:white;
+         padding-left:100px;
+         padding-right:100px;
+         font-family: 'Oswald', sans-serif;
+ }
+ .thumbnail h3 {
+         color:white;
+         font-size:50px;
+         margin:50px;
+         text-align:center;
+         font-weight:bolder;
+ }
+ 
+.btn {
+  background: #33739e;
+  background-image: -webkit-linear-gradient(top, #33739e, #2e83b8);
+  background-image: -moz-linear-gradient(top, #33739e, #2e83b8);
+  background-image: -ms-linear-gradient(top, #33739e, #2e83b8);
+  background-image: -o-linear-gradient(top, #33739e, #2e83b8);
+  background-image: linear-gradient(to bottom, #33739e, #2e83b8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
