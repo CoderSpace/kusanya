@@ -1,7 +1,7 @@
 @import url("//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css");
 
 body#index {
-        background-image: url(../images/kusanya-home.jpg)
+        background-image: url(../images/home2.JPG)
         background-attachment: fixed;
 }
 
@@ -184,15 +184,13 @@ label{
 
 .panel {
     margin-bottom:100px;
-    background-color:black;
-    opacity:0.8;
-    
 }
+
 .alpha60 {
  background: rgba(255, 255, 255, 255.6);
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
 }
 
- #img{
-    opacity: 5;
+ img{
+    opacity: 0.999;
 }
