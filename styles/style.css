@@ -132,7 +132,7 @@ footer > p, footer > a {
  
  #logo {
          margin-left:50px;
-         margin-top:10px;
+         margin-top:10px; 
  }
  
  .payback {
@@ -245,25 +245,19 @@ overflow-y: scroll;
     padding-left:200px;
 }
 
-@media (min-width: 769px) {
-   #mobile-nav {
-       display: none;
-   }
-   
-}
 
 @media (max-width: 768px) {
-    #desktop-nav {
-        display: none;
-}
     li {
         color: white;
     }
-   
-   
-   li {
-       color: white;
-   }
+    #logo {
+        width:100%;
+        margin-left:0;
+    }
+    nav {
+        width:100%;
+        margin-left:0;
+    }
 }
 
 #about p {
