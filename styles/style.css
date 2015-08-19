@@ -9,10 +9,6 @@ body {
         background-repeat: no-repeat;
 }
 
-.container {
-    
-          text-align:center;
-}
 
 .container form {
     text-align: left;
@@ -197,12 +193,6 @@ label{
          color:black;
  }
  
- #catering{
-         background-image: url(images/cater.jpg);
-         background-attachment: fixed;
-         background-size: cover;
-         background-repeat: no-repeat;
- } 
  
  body {
 overflow-x: hidden;
@@ -245,6 +235,14 @@ overflow-y: scroll;
     padding-left:200px;
 }
 
+#about p {
+    text-align:center;
+}
+
+#container {
+    margin-top:70px; 
+}
+
 
 @media (max-width: 768px) {
     li {
@@ -258,8 +256,7 @@ overflow-y: scroll;
         width:100%;
         margin-left:0;
     }
-}
-
-#about p {
-    text-align:center;
+    #container {
+        margin-top:100px;
+    }
 }
