@@ -49,12 +49,10 @@ body#contact {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 120px;
-        color:black;
 }
 
 body#catering {
         background-image: url(../images/kusanya-tile.jpg);
-        color:black;
 }
 
 nav {
@@ -161,24 +159,12 @@ label{
          height:1045px;
      }
  
- #wells{
-         background-color:rgba(0, 0, 0 ,0.9);
-         margin-bottom: 100px;
- }
  
- 
- .thumbnail {
-          image-size
-          color: white;
-          margin-bottom: 100px;
+ #wells, 
+     .thumbnail {
           background-color:rgba(0, 0, 0 ,0.9);
           
   }
- 
- #events_text{
-         font-size: 30px;
- }
- 
  #menu_text{
          color: white;
          
@@ -233,7 +219,13 @@ overflow-y: scroll;
 
 .form {
     padding-left:200px;
+    color:black;
+    padding:10px; 
+    margin:0 auto;
+    width:75%;
 }
+
+
 
 #about p {
     text-align:center;
@@ -241,6 +233,7 @@ overflow-y: scroll;
 
 #container {
     margin-top:70px; 
+    margin-bottom:120px;
 }
 
 
