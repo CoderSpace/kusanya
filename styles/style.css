@@ -1,8 +1,9 @@
 @import url("//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css");
+@import url(http://fonts.googleapis.com/css?family=Oswald:300);
 
 body {
         font-family: 'Oswald', sans-serif;
-        font-size:25px;
+        font-size:16px;
         color:white;
         background-attachment: fixed;
         background-size: cover;
@@ -129,11 +130,6 @@ footer > p, footer > a {
          margin-top:10px; 
  }
  
- .payback {
-         width: 312px;
-         height: 332px;
- }
- 
  #button{
          width: 450px;
          padding: 20px;
@@ -232,7 +228,7 @@ overflow-y: scroll;
 }
 
 #container {
-    margin-top:70px; 
+    margin-top:10px; 
     margin-bottom:120px;
 }
 
@@ -244,6 +240,10 @@ overflow-y: scroll;
     #logo {
         width:100%;
         margin-left:0;
+    }
+    
+    p {
+        font-size: 16px;
     }
     nav {
         width:100%;
